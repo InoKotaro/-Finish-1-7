@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+    }
+  
+  .main-visual{
+      width: 100%;
+      height: 400px;
+      background-image: url(img/mv.jpg);
+      background-position: bottom;
+      background-color: pink;
+    }
+    
+    .main-visual-text{
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    main{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+   
+    }
+
+    .main-content{
+      width: 840px;
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      margin-left: 300px ;
+      
+   
+    }
+
+    hr { /*区切りリセット*/
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    hr { /*区切りリセット*/
+      border-top: 1px solid #ccc;
+    }
